@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: PlayfairDisplay-Black
+font link: https://fonts.google.com/specimen/Playfair+Display
+font author: Claus Eggers Sørensen
+font author site: https://forthehearts.net/
+
+
+icon designer: Smashicons
+icon designer link: /creaticca
+        
+{"bg":"#161C60","icon":"#25BDD6","font":"#25BDD6","slogan":"#39d1ea"}
+      
