@@ -16,7 +16,7 @@
         <ul>
             <li ><a href="">Home</a> </li>
             <li ><a href="#about">About</a></li>
-            <li ><a href="">Services</a></li>
+            <li ><a href="#services">Services</a></li>
             <li ><a href="">Portfolio</a></li>
             <li ><a href="">Contact</a></li>
         </ul>
@@ -75,7 +75,7 @@
  <!-- ---------------------------------------- -->
 
  <!------------------------------ Services -------------------------------->
- <div class="services">
+ <div id="services">
     <div class="container">
         <h1 class="sub-title">My Services</h1>
         <div class="services-list">
@@ -95,6 +95,42 @@
  </div>
 <!-- ------------------------------------------ -->
 
+<!-- ----------Portfolio------------- -->
+<div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eaque aspernatur mollitia veritatis recusandae quae necessitatibus praesentium quasi voluptatem ut, omnis vero earum! Consectetur voluptate doloremque fugiat qui accusamus architecto.</p>
+                <a href="#"><<i class="fa-solid fa-arrow-up-right-from-square"></i>></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eaque aspernatur mollitia veritatis recusandae quae necessitatibus praesentium quasi voluptatem ut, omnis vero earum! Consectetur voluptate doloremque fugiat qui accusamus architecto.</p>
+                <a href="#"><<i class="fa-solid fa-arrow-up-right-from-square"></i>></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eaque aspernatur mollitia veritatis recusandae quae necessitatibus praesentium quasi voluptatem ut, omnis vero earum! Consectetur voluptate doloremque fugiat qui accusamus architecto.</p>
+                <a href="#"><<i class="fa-solid fa-arrow-up-right-from-square"></i>></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+   </div> 
+</div>
+
+<!-- ----------------- -->
+
  <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
@@ -108,7 +144,7 @@
         }
         event.currentTarget.classList.add("active-link")
         document.getElementById(tabname).classList.add("active-tab");
-    }
+    } 
  </script>
 </body>
 </html>
